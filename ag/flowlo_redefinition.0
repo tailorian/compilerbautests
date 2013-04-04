@@ -1,0 +1,11 @@
+f()
+	var a : int := 1;
+	var x : int := a + 1;
+	
+	-- This duplicate Vardef of a is correct.
+	var a : int := 2;
+	
+	-- Make sure to check that this a refers to the second defnition
+	-- so that y == 4.
+	var y : int := a + 2;
+end;
