@@ -50,7 +50,7 @@ ueblicherweise noch die aufgerufenen Funktionen deklarieren.
 
 ## Weitere Namenskonventionen fuer uns:
 
-*	Jeder Testfall hat als Praefix "<nick>_", sodass keine Namenskonflikte entstehen.
+*	Jeder Testfall hat als Praefix nick_, sodass keine Namenskonflikte entstehen.
 
 
 # Wie kannst du beitragen?
