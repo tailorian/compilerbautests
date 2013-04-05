@@ -1,0 +1,14 @@
+f()
+	var baz : int := $42;
+	
+	-- This condition does not make sense.
+	if 1 # 0 then
+		return baz + 1337;
+	else
+		return baz - 1337;
+	end;
+	
+	while 1 # 0 + 2 do
+		baz := baz + 1;
+	end;
+end;

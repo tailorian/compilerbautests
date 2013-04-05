@@ -1,0 +1,11 @@
+f(one : array of int, two : array of array of int, three : array of array of array of int)
+	var bar : int := $affe;
+	var foo : int := one[0];
+
+	foo := one[0] + bar;
+	one := two[1];
+	three[0] := two;
+	two[2] := one;
+	bar := three[1][2][2];
+	one[3 * 2 + 1] := $42;
+end;
