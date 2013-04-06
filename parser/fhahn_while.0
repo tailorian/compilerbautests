@@ -1,0 +1,9 @@
+foo()
+	while foo < bar or (not (foo#1) or (x < hallo)) do
+		while (((((foo#bar))))) do
+			return bar;
+		end;
+	end;
+
+
+end;
