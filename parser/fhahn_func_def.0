@@ -1,0 +1,22 @@
+foo() end;
+
+foo(bar:int) end;
+
+foo(bar:array of int, var2:int, var3	:array of 	int) end;
+
+foo()
+	return 1;
+end;
+
+foo(bar:int) 
+	(1 + 1);
+	(1 + 1)[1+1];
+	fooBar(1, 2,3,4,5,6);
+	foo123(a,b,c,d,e,f,g);
+	foo9	()			;
+	return foo;
+end;
+
+foo(bar:array of int, var2:int, var3	:array of int)
+	return bar * (var3 + var2);
+end;

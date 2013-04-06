@@ -1,0 +1,16 @@
+foo()
+	if 100 < 10 or not 10#10 
+	then
+		if (100 < 10 or (not 10#10) or foo < bar) 
+		then
+			return bar;
+			return $10;
+		end;
+		return 100;
+	else
+		return foo;
+		return bar;
+	end;
+
+
+end;
