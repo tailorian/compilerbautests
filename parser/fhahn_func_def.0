@@ -20,3 +20,6 @@ end;
 foo(bar:array of int, var2:int, var3	:array of int)
 	return bar * (var3 + var2);
 end;
+
+foo(bar:array of array of array of int)
+end;
