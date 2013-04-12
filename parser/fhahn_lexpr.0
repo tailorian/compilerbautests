@@ -1,0 +1,8 @@
+foo()
+	bar := 1;
+	bar := foo(1,2,3,4,asd,fo);
+	bar := fooo() - 100 * bar[foo(bar[$100])];	
+	x[1] := x[2];
+	x[foo(1, 2, 3, 4, 5)] := 99;
+	x[1] := 9 * $abc - (x - 1);
+end;

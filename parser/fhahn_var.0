@@ -1,0 +1,7 @@
+foo()
+	var foo : array of array of array of array of int := 1;
+	var foo : int := 10;
+	var bar : array of int := 10;
+	var var2:int := 10 + bar *(foo - $100) - bar[1][2];
+
+end;
