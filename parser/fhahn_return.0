@@ -1,9 +1,9 @@
 func1() 
 	return 1; 
 	return 1 + 10; 
-	return 1 + 10 + func1(); 
-	return func1();
-	return func1($10, 10, asd);
+	return 1 + 10 + func1() : int;
+	return func1() : int;
+	return func1($10, 10, asd) : int;
 	return 1 * foo + $100 - 10;
 	return (1 + asd[$10+foo[bar]]) * ($10);
 	return baro;
