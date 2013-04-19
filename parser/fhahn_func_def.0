@@ -12,11 +12,13 @@ foo(bar:int)
 	(1 + 1);
 	(1 + 1)[1+1];
 	fooBar(1, 2,3,4,5,6) : int;
-	foo123(a,b,c,d,e,f,g) : int;
-	foo9	()	: int		;
+	foo123(a,b,c,d,e,f,g) :  array of array of int;
+	foo9	()			: int;
 	return foo;
 end;
 
 foo(bar:array of int, var2:int, var3	:array of int)
 	return bar * (var3 + var2);
+end;
+foo(bar:array of array of array of int)
 end;
