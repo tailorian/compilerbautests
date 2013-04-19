@@ -1,0 +1,4 @@
+extern f(long*,long);
+long arr[4] = { 1, 2, 3, 4 };
+printf("%ld\n", f(arr, 0));
+RET(f(arr, 0) == 1 && f(arr, 2) == 3);
