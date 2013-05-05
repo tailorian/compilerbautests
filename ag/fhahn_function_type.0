@@ -1,0 +1,8 @@
+f(x : array of array of int)
+    var a : array of int := f(1, 2, 3, x) : array of int;
+    var b : int := f(a, x) : int;
+    
+    b := (f(x) : array of int)[0] + b;
+
+    return f(x) : array of array of array of int[0][2][b] + b;
+end;
