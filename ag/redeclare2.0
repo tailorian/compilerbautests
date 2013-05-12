@@ -1,0 +1,7 @@
+fun(a : array of int)
+	var b : array of int := a;
+	if 1 # 2 then
+		var b : int := 1;
+	end;
+	b := a;
+end;
