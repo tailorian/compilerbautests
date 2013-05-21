@@ -5,4 +5,4 @@ extern long i(long);
 RET(f(5) == 10);
 RET(g(5) == 5);
 RET(h() == 0);
-rET(i(5) == 2);
+RET(i(5) == 2);

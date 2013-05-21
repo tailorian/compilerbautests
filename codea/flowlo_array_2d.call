@@ -1,4 +1,4 @@
-/* Kopiert von Christoph Weiler (https://tiss.tuwien.ac.at/forum/threadView.xhtml?threadId=28442) */
+/* Copied from Christoph Weiler (https://tiss.tuwien.ac.at/forum/threadView.xhtml?threadId=28442) */
 long** array2d(int x, int y) {
 	int i, j;
 	long **arr = malloc(sizeof(long*) * x);
