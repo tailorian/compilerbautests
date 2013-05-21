@@ -1,0 +1,21 @@
+long arr[5][5][5];
+long *parr[5][5];
+long **pparr[5];
+long ***ppparr;
+
+int i, j;
+
+for (i=0; i<5; i++) {
+	for (j=0; j<5; j++) {
+		parr[i][j] = arr[i][j];
+	}
+	pparr[i]=parr[i];
+}
+ppparr = pparr;
+
+arr[0][0][0] = 42;
+arr[4][3][2] = 12;
+
+
+extern f (long***, long, long, long);
+RET (f (ppparr,0,0,0) == 42 && f (ppparr,4,3,2) == 12);
