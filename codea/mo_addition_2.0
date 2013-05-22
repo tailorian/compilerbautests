@@ -1,0 +1,3 @@
+f(one : int)
+ return 5 + one + 2;
+end;

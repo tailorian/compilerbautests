@@ -1,0 +1,3 @@
+f(one : int, two : array of int)
+ return two[1] * (5 - one);
+end;
