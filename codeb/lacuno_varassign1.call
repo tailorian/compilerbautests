@@ -1,0 +1,3 @@
+extern long f(long x, long y);
+
+RET(f(10,10) == 180);

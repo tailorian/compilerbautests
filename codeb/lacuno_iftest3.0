@@ -1,0 +1,14 @@
+f(x : int)
+	if x < 10 then
+		if x < 5 then
+			return 5;
+		end;
+		return 10;
+	else
+		if 15 < x then
+			return 15;
+		end;
+		return 11;
+	end;
+end;
+		
