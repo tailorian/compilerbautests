@@ -1,0 +1,7 @@
+f(x : int)
+    if x < 5 then
+       return x;
+    else
+       return 100;
+    end;
+end;

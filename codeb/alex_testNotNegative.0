@@ -1,0 +1,6 @@
+f()
+if not 1 < 29 then
+return 1337;
+else return 10;
+end;
+end;
