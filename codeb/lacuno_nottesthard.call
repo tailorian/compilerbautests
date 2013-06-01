@@ -1,0 +1,3 @@
+extern long f(long x);
+
+RET(f(1) == 5 && f(10) == 20);
