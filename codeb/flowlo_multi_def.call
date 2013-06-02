@@ -1,0 +1,5 @@
+extern long f(long);
+extern long g(long);
+extern long h();
+extern long i(long);
+RET(f(5) == 10 && g(5) == 5 && h() == 0 && i(5) == 2);
