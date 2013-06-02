@@ -1,0 +1,10 @@
+f (x : int, y : int)
+var z : int := 0;
+while (0 < x or 0 < y)
+do
+	z := z + 1;
+	x := x - 1;
+	y := y - 1;
+end;
+return z;
+end;
