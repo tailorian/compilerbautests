@@ -1,0 +1,4 @@
+f(k : array of int, i : int)
+	k[i] := 10;
+	return k[i];
+end;
