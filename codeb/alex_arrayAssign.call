@@ -1,0 +1,8 @@
+extern long f(long *a, long *b, long*c, long *i);
+
+long a [3]  = {44,78,99};
+long b [3]  = {100,599,677};
+long c [3];
+long i [3] = {24,25,1337};
+
+RET(f(a,b,c,i) == 1337);

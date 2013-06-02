@@ -1,0 +1,4 @@
+f(x : array of int)
+	var y : array of int := x;
+	return y[0];
+end;

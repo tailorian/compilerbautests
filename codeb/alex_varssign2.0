@@ -1,0 +1,6 @@
+f()
+	var x : int := 5;
+	var y : int := 30;
+	x := x+y;
+return x;
+end;

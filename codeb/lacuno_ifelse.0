@@ -1,0 +1,8 @@
+f()
+	if 7 < 6 then
+		return 1;
+	else
+		return 2;
+	end;
+		return 3;
+end;
