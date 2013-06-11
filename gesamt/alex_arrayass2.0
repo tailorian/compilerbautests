@@ -1,0 +1,5 @@
+f(k:array of int)
+var j: int := 6;
+k[2] := j;
+return k[2];
+end;

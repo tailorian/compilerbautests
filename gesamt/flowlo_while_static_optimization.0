@@ -1,0 +1,6 @@
+f(x: int)
+	while 11 < 10 do
+		x := x + 1;
+	end;
+	return x;
+end;

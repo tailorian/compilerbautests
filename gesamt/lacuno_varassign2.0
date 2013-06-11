@@ -1,0 +1,5 @@
+f()
+	var x : int := 1;
+	x := 20;
+	return x;
+end;
