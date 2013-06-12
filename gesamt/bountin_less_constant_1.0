@@ -1,0 +1,7 @@
+f ()
+	if 12 < 42
+	then
+		return 1;
+	end;
+	return 0;
+end;

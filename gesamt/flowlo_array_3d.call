@@ -1,0 +1,20 @@
+/* Copied from Christoph Weiler (https://tiss.tuwien.ac.at/forum/threadView.xhtml?threadId=28442) */
+long*** array3d(int x, int y, int z) {
+	int i, j, k;
+	long ***arr = malloc(sizeof(long*) * x);
+	for(i = 0; i < x; i++) {
+        	arr[i] = malloc(sizeof(long*) * y);
+		for(j = 0; j < y; j++) {
+			arr[i][j] = malloc(sizeof(long*) * z);
+			for(k = 0; k < z; k++) {
+				arr[i][j][k] = i * j * k;
+			}
+		}
+	}
+
+        return arr;
+}
+
+extern long f(long***, long, long, long);
+long*** arr = array3d(6, 6, 6);
+RET(f(arr, 0, 0, 0) == 0 && f(arr, 5, 5, 5) == 125 && f(arr, 3, 4, 2) == 24 && f(arr, 4, 3, 5) == 60);

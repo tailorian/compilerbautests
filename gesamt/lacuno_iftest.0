@@ -1,0 +1,6 @@
+f()
+	if 11 < 1 then
+		return 15;
+	end;
+	return 10;
+end;

@@ -1,0 +1,11 @@
+f()
+var k:int:=5;
+var i:int:=9;
+
+				if k#i then 
+						return i;
+				end;
+
+return k;
+end;
+

@@ -1,0 +1,37 @@
+    f()
+            if 7 < 6 then
+                    if 7 < 6 then
+                            if 7 < 6 then
+                                    return 1;
+                            else
+                                    return 2;
+                            end;
+                    else
+                            if 7 < 6 then
+                                    return 3;
+                            else
+                                    return 4;
+                            end;
+                    end;
+            else
+                    if 7 < 6 then
+                            if 7 < 6 then
+                                    return 5;
+                            else
+                                    return 6;
+                            end;
+                    else
+                            if 7 < 6 then
+                                    return 7;
+                            else
+                                    return 8;
+                            end;
+                    end;
+            end;
+					if 1<0 then else
+					end;
+					if 1<0 then else
+					end;
+    end;
+
+

@@ -1,0 +1,7 @@
+f(x : int)
+	if not not not not x < 5 then
+		return 5;
+	else
+		return 20;
+	end;
+end;

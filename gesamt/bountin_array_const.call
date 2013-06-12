@@ -1,0 +1,4 @@
+extern f(long*);
+long arr1[4] = { 1, 2, 3, 4 };
+long arr2[5] = { -100, -99, -98, -97, -96 };
+RET(f(arr1) == 3 && f(arr2) == -98);
