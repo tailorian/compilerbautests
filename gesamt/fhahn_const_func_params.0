@@ -1,0 +1,10 @@
+f()
+    return f1(2) : int;
+end;
+
+f1(x:int)
+    return x ;
+end;
+
+
+

@@ -1,0 +1,13 @@
+f()
+    return f1() : int;
+end;
+
+f1()
+    return 2;
+end;
+
+f2()
+    return f() :int + f() : int;
+end;
+
+
