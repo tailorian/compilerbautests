@@ -1,0 +1,4 @@
+extern f(long, long, long, long, long, long);
+extern g();
+
+RET (f(1,2,3,4,5,6) == 21 && g() == 42 * 6);
