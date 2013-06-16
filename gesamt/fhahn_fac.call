@@ -1,0 +1,9 @@
+extern long fac(long);
+
+RET(
+    fac(1) == 1 &&
+    fac(2) == 2 &&
+    fac(3) == 6 &&
+    fac(4) == 24 &&
+    fac(7) == 5040
+);

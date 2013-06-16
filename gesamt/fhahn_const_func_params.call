@@ -1,0 +1,5 @@
+extern long f();
+
+RET(
+    f() == 2
+);
