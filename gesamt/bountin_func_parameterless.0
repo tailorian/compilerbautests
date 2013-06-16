@@ -1,0 +1,7 @@
+f ()
+	return g () : int;
+end;
+
+g ()
+	return 5;
+end;
