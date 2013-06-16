@@ -1,0 +1,6 @@
+extern long f(long*, long, long);
+
+long* a = malloc(sizeof(long) * 5);
+
+
+RET(f(a,3,2) == 1 && a[3] == 2);
