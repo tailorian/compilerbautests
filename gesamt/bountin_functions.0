@@ -1,0 +1,15 @@
+g ()
+	var z:int := 42;
+	var y:int := 42;
+	var x:int := 42;
+	var w:int := 42;
+	var v:int := 42;
+	var u:int := 42;
+
+	return u+v+w+x+y+z;
+end;
+
+f(a:int, b:int, c:int, d:int, e:int, f:int)
+	return a+b+c+d+e+f;
+end;
+
