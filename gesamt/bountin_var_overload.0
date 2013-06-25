@@ -1,0 +1,31 @@
+f ()
+	if 0 < 1
+	then
+		var x:int := 0;	
+		var y:int := 0;	
+		var z:int := 0;	
+		var a:int := 0;	
+	end;
+	if 0 < 1
+	then
+		var x:int := 0;	
+		var y:int := 0;	
+		var z:int := 0;	
+		var a:int := 0;	
+	end;
+	if 0 < 1
+	then
+		var x:int := 0;	
+		var y:int := 0;	
+		var z:int := 0;	
+		var a:int := 0;	
+	end;
+	if 0 < 1
+	then
+		var x:int := 0;	
+		var y:int := 0;	
+		var z:int := 0;	
+		var a:int := 0;	
+	end;
+	return 0;
+end;

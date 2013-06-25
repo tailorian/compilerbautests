@@ -1,0 +1,7 @@
+f(x:int, y:int)
+	if x # y
+	then
+		return 0;
+	end;
+	return 1;
+end;

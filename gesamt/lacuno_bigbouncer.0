@@ -1,0 +1,18 @@
+f(x : int, y : int)
+	if x < y then
+		var z : int := 20;
+		if x < 10 then
+			return x;
+		end;
+		return z;
+	else
+		var z : int := 20;
+		if y < 10 then
+		
+		else
+			var z : int := 15;
+			return z;
+		end;
+	end;
+	return y;
+end;

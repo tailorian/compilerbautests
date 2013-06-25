@@ -1,0 +1,7 @@
+f ()
+return g(3,4,5) : int;
+end;
+
+g (x:int, y:int, z:int)
+  return z+y+y+x;
+end;

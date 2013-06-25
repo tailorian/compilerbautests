@@ -1,0 +1,9 @@
+f(x : int)
+    sideEff(x): int;
+    return x+1;
+end;
+
+sideEff(x:int)
+    x := x*x;
+    return x;
+end;

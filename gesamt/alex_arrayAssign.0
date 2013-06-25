@@ -1,0 +1,6 @@
+f(k:array of int, j:array of int, l:array of int,i:array of int)
+l := j;
+j := k;
+return i[2]; 
+end;
+

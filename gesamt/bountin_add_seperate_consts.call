@@ -1,0 +1,2 @@
+extern long f(long, long);
+RET(f(50, 0) == 65 && f(0, 5) == 25);

@@ -1,0 +1,12 @@
+fib(x : int)
+    if not x # 0 then
+        return 0;
+    end;
+    if not x # 1 then
+        return 1;
+    end;
+ 
+    var y : int := fib(x-1):int;
+    var z : int := fib(x-2):int;
+    return z + y;
+end;

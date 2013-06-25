@@ -1,0 +1,2 @@
+extern f(long);
+RET(f(5) == 1);

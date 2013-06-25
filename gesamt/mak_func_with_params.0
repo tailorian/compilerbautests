@@ -1,0 +1,7 @@
+f (x:int, y:int, z:int)
+  return g(z,x,y) : int;
+end;
+
+g (x:int, y:int, z:int)
+  return (z*y)+x;
+end;

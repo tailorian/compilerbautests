@@ -1,0 +1,5 @@
+extern long f(long *x);
+
+long x[] = {0,0,0,0,0};
+
+RET(f(x) == 10);

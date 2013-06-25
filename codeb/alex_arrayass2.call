@@ -1,0 +1,4 @@
+extern long f(long *a);
+long a [] = {100,200,300,400};
+
+RET(f(a) == 6);

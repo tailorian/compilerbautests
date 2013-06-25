@@ -1,0 +1,4 @@
+f(x : array of int)
+var y : int := 0;
+x[y] := 1;
+end;

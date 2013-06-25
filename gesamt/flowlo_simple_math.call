@@ -1,0 +1,6 @@
+long f();
+long g();
+
+printf("%ld %ld", g(), f());
+
+RET(g() == 16 && f() == 1350);
