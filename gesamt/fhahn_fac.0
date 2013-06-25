@@ -1,0 +1,7 @@
+fac(x : int)
+    if x < 2 then
+        return 1;
+    end;
+    var y : int := fac(x-1):int;
+    return y*x;
+end;

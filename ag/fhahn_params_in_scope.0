@@ -1,0 +1,5 @@
+f(x : int, y : int)
+    x := 1;
+    y := 1;
+
+end;

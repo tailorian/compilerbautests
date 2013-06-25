@@ -1,0 +1,7 @@
+f(x : int)
+	return x + x;
+end;
+
+g(x : int)
+	return x;
+end;

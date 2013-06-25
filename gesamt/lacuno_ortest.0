@@ -1,0 +1,7 @@
+f(x : int)
+	if x < 10 or x < 20 then
+		return 10;
+	end;
+	return 15;
+end;
+	

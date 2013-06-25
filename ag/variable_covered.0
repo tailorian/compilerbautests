@@ -1,0 +1,14 @@
+f(one : array of int, two : array of array of int)
+	var foo : int := $42f;
+	var bar : int := one[0];
+	
+	bar := one[1337] + foo;
+	one := two[$affe];
+	
+	foo := two[$deadbeef][$cafebabe];
+	
+	if bar # 3 then
+		var bar : array of int := one;
+		bar[0] := 3;
+	end;
+end;

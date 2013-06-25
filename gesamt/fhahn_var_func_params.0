@@ -1,0 +1,7 @@
+f(x : int, y:int)
+    return f1(x,y) : int; 
+end;
+
+f1(x : int ,y : int)
+    return 2 + y;
+end;

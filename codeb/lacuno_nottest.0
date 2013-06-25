@@ -1,0 +1,7 @@
+f(x : int)
+	if not x < 10 then
+		return x;
+	else
+		return x + 10;
+	end;
+end;

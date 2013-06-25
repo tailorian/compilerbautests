@@ -1,0 +1,9 @@
+f (x: array of int, y:int, z:int)
+  g(x,z,y) : int;
+  (1+1);
+  return 1;
+end;
+
+g (x:array of int, y:int, z:int)
+  x[z] := y;
+end;

@@ -1,0 +1,3 @@
+extern long f(void);
+
+RET (f () == 1);

@@ -1,0 +1,7 @@
+extern long f();
+extern long f2();
+
+RET(
+    f() == 2 &&
+    f2() == 4
+);

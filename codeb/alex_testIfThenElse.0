@@ -1,0 +1,22 @@
+f(x:int)
+if x < 10 then
+
+	if x < 5  then
+		return 5;
+	else
+	return 7;
+	end;
+	
+	return 100;
+
+else
+
+	if x < 50 then
+		return 10;			
+	end;
+end;
+
+return 15;
+
+
+end;

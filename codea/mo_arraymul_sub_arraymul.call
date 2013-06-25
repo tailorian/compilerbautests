@@ -1,0 +1,3 @@
+extern long f(long, long[]);
+long two[]={3,8,9};
+RET(f(3,two) == 48);

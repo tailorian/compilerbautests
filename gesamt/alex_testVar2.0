@@ -1,0 +1,5 @@
+f(x:int, y:int)
+	var z:int:=(10 + y) * x;
+	var returnval : int := z - 20;
+	return returnval;
+end;
